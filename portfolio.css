@@ -36,43 +36,128 @@ nav .right a:last-child {
 }
 
 main {
-    padding: 0 50px;
+    padding: 50px;
 }
 
-main .first {
+main .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-main .photo img{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+.hero .links a {
+    text-decoration: none;
 }
 
-main .skills {
+main .photo img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hero .aboutMe {
+    flex: 5;
+}
+
+.hero .photo {
+    flex: 2;
+}
+
+.hero {
+    gap: 40px;
+}
+
+.hero .aboutMe h2 {
+    font-size: 45px;
+}
+
+.hero .aboutMe .links {
+    margin-top: 25px;
+}
+
+.hero .aboutMe .links a {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: .1s;
+}
+
+.hero .aboutMe .links a:hover {
+    color: #2C3930;
+    border: 2px solid #2C3930;
+}
+
+/*2nd Section*/
+
+.skills-section {
+    margin-top: 100px;
+}
+
+.skills-section h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.skills-section .text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills-section .cells {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-section .cells .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 150px;
+    padding: 10px 15px;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.skills-section .cells .cell img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.skills-section .cells .cell span {
+    font-size: 18px;
+}
+
+/*3rd Section*/
+
+.blog-section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5E936C;
+    border-radius: 14px;
+}
+
+.blog-section h2 {
+    margin: 30px 0 20px 0;
+    font-size: 30px;
     text-align: center;
 }
 
-main .skills-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    gap: 100px;
+.blog-section .container .blog-card {
+    padding: 60px;
+    background-color: #3E5F44;
+    color: lightgray;
+    border-radius: 14px 50px 50px 14px;
 }
 
-main .skills-list .skill {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    width: 200px;
-    height: 40px;
-    border-radius: 5px;
-}
-
-main .info {
-    background-color: gray;
+.blog-card2 {
+    padding: 20px;
+    margin: 40px;
 }

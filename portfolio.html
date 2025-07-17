@@ -9,27 +9,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+        
 </head>
 <body>
 
     <nav>
-        <div class="left">
-            <a href="">Hezekiah Novales</a>
-        </div>
+        <div class="left">hezekiah novales.</div>
 
         <div class="right">
-            <a href="http://github.com" target="blank">
+            <a href="https://github.com/kiahDev" target="blank">
                 <i class="fa-brands fa-github"></i>
                 <span>Github</span>
             </a>    
 
-            <a href="http://instagram.com" target="blank">
+            <a href="https://www.instagram.com/_zekiaaa/" target="blank">
                 <i class="fa-brands fa-instagram"></i>
                 <span>instagram</span>
             </a>
 
-            <a href="mailto:brandonhezekiah.novales@cvsu.edu.ph" target=" blank">
+            <a href="mailto:brandonhezekiah.novales@cvsu.edu.ph" target="blank">
                 <i class="fa-solid fa-envelope"></i>
                 <span>Email</span>
             </a>
@@ -37,50 +35,100 @@
     </nav>
 
     <main>
-
-        <section class="first">
+        <section class="hero">
             <div class="aboutMe">
                 <h2>Hi, i'm Hezekiah</h2>
                 <p>I am a web developer that is currently studying in Cavite State University.
                     I love creating minimalist, responsive and clean websites.
                 </p>
-            </div>
+
+                <div class="links">
+                    <a href="#skills">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Skills</span>
+                    </a>
+
+                    <a href="#blog">
+                    <i class="fa-solid fa-book"></i>
+                    <span>Blog</span>
+                    </a>
+
+                    <a href="#projects">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <span>Projects</span>
+                    </a>
+                </div>
+
+            </div>  
 
             <div class="photo">
                 <img src="profilepic.jpg" alt="me">
-            </div>
+            </div>  
         </section>
 
-        <section class="skills">
-            <h3>My Skills</h3>
-            <div class="skills-list">
-                <div class="skill">
-                    <i class="fa-brands fa-html5"></i>
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                Here are some of the skills I’ve learned 
+                and practiced throughout my studies and 
+                personal projects. I'm always exploring and 
+                trying to improve as I build more 
+                things and work on different challenges.
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="htmlLogo.png" alt="html">
                     <span>HTML</span>
                 </div>
 
-                <div class="skill">
-                    <i class="fa-brands fa-css3-alt"></i>
+                <div class="cell">
+                    <img src="cssLogo.png" alt="css">
                     <span>CSS</span>
                 </div>
 
-                <div class="skill">JavaScript</div>
-                <div class="skill">React</div>
-                <div class="skill">Node.js</div>
-                <div class="skill">Git</div>
+                <div class="cell">
+                    <img src="javascriptLogo.png" alt="javascript">
+                    <span>Javascript</span>
+                </div>
+
+                <div class="cell">
+                    <img src="javaLogo.png" alt="java">
+                    <span>Java</span>
+                </div>
+
+                <div class="cell">
+                    <img src="pythonLogo.png" alt="python">
+                    <span>Python</span>
+                </div>
             </div>
         </section>
 
-        <section class="info">
+        <section id="blog" class="blog-section">
+            <h2>Blog</h2>
             <div class="container">
-                <h2>About Me</h2>
+                <div class="blog-card">
+                    <h3>Why I chose BSIT?</h3>
+                    <p>I chose this course or program because when i was a kid, I 
+                    am really into computers. Got addicted with a lot of games 
+                    and had an idea one day of curiosity about how these games are made?
+                    That's pretty much it. As time passed by, I learned that IT is very 
+                    wide and there's so many things behind it. Now, I am kinda inlove
+                    with the thought of building clean, responsive and functional websites.
+                    </p>
+                </div>
 
-                <h3>Education</h3>
-                <p> - Bachelor of Science in Information and Technology</p>
-
+                <div class="blog-card2">
+                    <h3>Career Dreams</h3>
+                    <p> I dream of becoming a software engineer or a web developer
+                        — someone who builds real systems or apps that people use
+                        every day. I want to make something that solves problems, 
+                        helps others, or even just brings joy. Whether it's a small 
+                        website or a big application, I want to be part of creating it.</p>
+                </div>
             </div>
         </section>
-
+        
     </main>
     
 </body>
