@@ -136,28 +136,116 @@ main .photo img{
 
 /*3rd Section*/
 
-.blog-section .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #5E936C;
-    border-radius: 14px;
-}
-
-.blog-section h2 {
-    margin: 30px 0 20px 0;
-    font-size: 30px;
+.blog-section {
+    padding: 60px 20px;
+    font-family: 'Segoe UI', sans-serif;
     text-align: center;
 }
 
-.blog-section .container .blog-card {
-    padding: 60px;
-    background-color: #3E5F44;
-    color: lightgray;
-    border-radius: 14px 50px 50px 14px;
+.blog-section h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
-.blog-card2 {
-    padding: 20px;
-    margin: 40px;
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
 }
+
+.blog-half {
+    flex: 1;
+    padding: 40px;
+    color: white;
+    min-width: 300px;
+}
+
+.blog-left {
+    background-color: #2e4a37;
+}
+
+.blog-right {
+    background-color: #4e7e5f; 
+}
+
+.blog-half h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.blog-half p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #f0f0f0;
+}
+
+
+/* 4th section */
+
+.projects-section {
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.projects-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.project-card {
+    background-color: #ffffff;
+    border: 2px solid #d3d3d3;
+    border-radius: 10px;
+    padding: 30px 20px;
+    width: 280px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card h3 {
+    font-size: 22px;    
+    margin-bottom: 20px;
+    color: #2e4a37;
+}
+
+.project-card p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.project-card a {
+    display: inline-block;
+    padding: 6px 18px;
+    background-color: #2e4a37;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.project-card a:hover {
+    background-color: #4e7e5f;
+}
+
